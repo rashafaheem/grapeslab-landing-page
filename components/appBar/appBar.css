@@ -1,0 +1,37 @@
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 50px;
+}
+
+.toolbar {
+  background-color: rgb(228, 208, 208);
+}
+
+.grapeslab {
+  color: black;
+}
+
+.headerItems {
+  margin-left: 110px;
+}
+
+.headerMenu {
+  margin-left: 70px;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.favIcon {
+  color: rgb(180, 75, 67);
+  margin-left: 260px;
+  cursor: pointer;
+}
+
+.cartIcon {
+  color: rgb(180, 75, 67);
+  margin-left: 25px;
+  cursor: pointer;
+}
