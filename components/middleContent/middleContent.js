@@ -5,20 +5,26 @@ import Paper from "@material-ui/core/Paper";
 import SearchIcon from "@material-ui/icons/Search";
 
 const useStyles = makeStyles((theme) => ({
-  imagePaper: {
-    backgroundColor: "rgb(254 242 242)",
+  imagePaper2: {
+    // backgroundColor: "rgb(254 242 242)",
     height: "800px",
     width: "600px",
+    marginTop: "130px",
   },
 }));
 
-function topContent() {
+function MiddleContent() {
   const classes = useStyles();
   return (
     <div>
       <Grid container spacing={2}>
         <Grid item xs={12} sm={6}>
-          <Paper className="frame1" elevation={0}>
+          <Paper className={classes.imagePaper2} elevation={0}>
+            <img className="contentImage" src="/contentImage.jpg" alt="image" />
+          </Paper>
+        </Grid>
+        <Grid item xs={12} sm={6}>
+          <Paper className="frame2" elevation={0}>
             <h1 className="title">We Serve The Taste You Love</h1>
             <p className="subtitle">
               Food is a great way to meet people and make friends. When people
@@ -31,14 +37,9 @@ function topContent() {
             </button>
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={6}>
-          <Paper className={classes.imagePaper} elevation={0}>
-            <img className="contentImage" src="/contentImage.jpg" alt="image" />
-          </Paper>
-        </Grid>
       </Grid>
     </div>
   );
 }
 
-export default topContent;
+export default MiddleContent;
