@@ -18,23 +18,26 @@ function MiddleContent() {
   return (
     <div>
       <Grid container spacing={2}>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} lg={6}>
           <Paper className={classes.imagePaper2} elevation={0}>
-            <img className="contentImage" src="/contentImage.jpg" alt="image" />
+            <img
+              className="contentImage2"
+              src="/contentImage2.jpg"
+              alt="imagee"
+            />
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} lg={6}>
           <Paper className="frame2" elevation={0}>
-            <h1 className="title">We Serve The Taste You Love</h1>
-            <p className="subtitle">
+            <h3 className="title1">Our popular resturants</h3>
+            <h1 className="title2">1000+</h1>
+            <h2 className="title3">Our Delicious Food</h2>
+            <p className="subtitle2">
               Food is a great way to meet people and make friends. When people
               share a meal, you can be sure the discussions about food,
               restaurants and recipes are going to be endless.
             </p>
-            <button className="findButton">Find A Food</button>
-            <button className="searchButton">
-              Search {<SearchIcon className="searchIcon" />}
-            </button>
+            <button className="exploreButton">Explore Menu</button>
           </Paper>
         </Grid>
       </Grid>

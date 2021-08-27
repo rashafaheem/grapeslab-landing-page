@@ -1,21 +1,32 @@
 .frame2 {
-  margin-top: 200px;
+  margin-top: 240px;
+  margin-left: 80px;
+  margin-right: 90px;
 }
 
-.title {
+.title1 {
+  color: rgb(201, 37, 37);
+}
+
+.title2 {
   color: rgb(15, 15, 53);
   font-size: 80px;
-  line-height: 90px;
+  line-height: 10px;
 }
 
-.subtitle {
+.title3 {
+  color: rgb(15, 15, 53);
+  font-size: 40px;
+}
+
+.subtitle2 {
   color: rgb(121, 121, 121);
-  margin-top: -30px;
+  margin-top: -20px;
   line-height: 30px;
   text-align: justify;
 }
 
-.findButton {
+.exploreButton {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: bolder;
@@ -27,11 +38,11 @@
   width: 170px;
   display: inline-block;
   border: none;
-  margin-left: 70px;
+  margin-top: 15px;
   transition: all 0.4s ease 0s;
 }
 
-.findButton:hover {
+.exploreButton:hover {
   background: rgb(201, 37, 37);
   letter-spacing: 2px;
   -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
@@ -40,38 +51,9 @@
   transition: all 0.4s ease 0s;
 }
 
-.searchIcon {
-  margin-left: 13px;
-  padding-top: 4px;
-}
-
-.searchButton {
-  color: rgb(201, 37, 37);
-  font-weight: bolder;
-  letter-spacing: 1px;
-  font-size: 15px;
-  background: none;
-  padding: 0px;
-  border-radius: 50px;
-  height: 60px;
-  width: 170px;
-  display: inline-block;
-  border: 2px solid rgb(201, 37, 37);
-  margin-left: 70px;
-  transition: all 0.4s ease 0s;
-}
-
-.searchButton:hover {
-  background: none;
-  letter-spacing: 2px;
-  -webkit-box-shadow: 0px 5px 40px -10px rgba(248, 103, 103, 0.57);
-  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
-  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
-  transition: all 0.4s ease 0s;
-}
-
-.contentImage {
-  height: 800px;
-  width: 600px;
-  padding-bottom: -5px;
+.contentImage2 {
+  height: 700px;
+  width: 700px;
+  float: left;
+  margin-top: 100px;
 }

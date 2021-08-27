@@ -17,7 +17,7 @@ function topContent() {
   return (
     <div>
       <Grid container spacing={2}>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} lg={6}>
           <Paper className="frame1" elevation={0}>
             <h1 className="title">We Serve The Taste You Love</h1>
             <p className="subtitle">
@@ -31,7 +31,7 @@ function topContent() {
             </button>
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} lg={6}>
           <Paper className={classes.imagePaper} elevation={0}>
             <img className="contentImage" src="/contentImage.jpg" alt="image" />
           </Paper>

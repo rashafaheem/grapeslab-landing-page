@@ -1,0 +1,48 @@
+.foodCards {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 0.5px;
+}
+
+.foodPaper {
+  /* margin-left: 25px; */
+  width: 370px;
+}
+
+.foodPaper:hover {
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.foodImage {
+  height: 200px;
+  width: 347px;
+  margin-top: 10px;
+  border-radius: 5%;
+}
+
+.foodTitle {
+  display: flex;
+  float: right;
+}
+
+.foodPlace {
+  color: rgb(153, 152, 152);
+}
+
+.foodRating {
+  display: flex;
+  /* float: left; */
+  margin-top: -6px;
+  padding-left: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.starIcon {
+  float: left;
+  margin-top: -6px;
+  color: rgb(240, 187, 52);
+}

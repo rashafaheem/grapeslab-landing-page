@@ -14,13 +14,15 @@ function MarketingCards(props) {
   const classes = useStyles();
   return (
     <div className="cardPaper">
-      <Paper className={classes.cardPaper} elevation={3}>
-        <div className="miniCards">
-          <img className="miniImage" src={props.miniImage}></img>
-          <h2 className="miniTitle">{props.miniTitle}</h2>
-          <p className="miniContent">{props.miniContent}</p>
-        </div>
-      </Paper>
+      <Grid item xs={12} lg={4}>
+        <Paper className={classes.cardPaper} elevation={3}>
+          <div className="miniCards">
+            <img className="miniImage" src={props.miniImage}></img>
+            <h2 className="miniTitle">{props.miniTitle}</h2>
+            <p className="miniContent">{props.miniContent}</p>
+          </div>
+        </Paper>
+      </Grid>
     </div>
   );
 }
