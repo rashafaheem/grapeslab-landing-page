@@ -1,0 +1,90 @@
+.frame3 {
+  margin-top: 240px;
+  margin-left: 80px;
+  margin-right: 40px;
+  color: rgb(254, 242, 242);
+}
+
+.title1 {
+  color: rgb(201, 37, 37);
+}
+
+.title3 {
+  color: rgb(15, 15, 53);
+  font-size: 40px;
+}
+
+.cutPrice {
+  color: rgb(15, 15, 53);
+  font-size: 40px;
+  line-height: 10px;
+  text-decoration: line-through;
+  display: inline;
+}
+
+.offPrice {
+  display: inline;
+  color: rgb(15, 15, 53);
+  font-size: 30px;
+  line-height: 10px;
+  margin-left: 25px;
+}
+
+.itemButton {
+  color: rgb(201, 37, 37);
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: 15px;
+  background: none;
+  padding: 0px;
+  border-radius: 50px;
+  height: 60px;
+  width: 170px;
+  display: inline-block;
+  border: 2px solid rgb(201, 37, 37);
+  margin-top: 40px;
+}
+
+.addButton {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: 15px;
+  background: rgb(201, 37, 37);
+  padding: 20px;
+  border-radius: 50px;
+  width: 170px;
+  display: inline-block;
+  border: none;
+  margin-left: 20px;
+  transition: all 0.4s ease 0s;
+}
+
+.addButton:hover {
+  background: rgb(201, 37, 37);
+  letter-spacing: 2px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.removeIcon {
+  margin-right: 10px;
+}
+
+.addIcon {
+  margin-left: 10px;
+}
+
+.contentImage3 {
+  height: 650px;
+  width: 600px;
+  padding-bottom: -5px;
+}
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+}

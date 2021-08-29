@@ -3,7 +3,41 @@
 
 .miniCard {
   display: flex;
+  margin: auto;
   margin-top: 100px;
   margin-left: 90px;
   margin-right: 90px;
+}
+
+.foodCardss {
+  margin-top: 30px;
+  margin-left: 90px;
+  margin-right: 90px;
+  display: flex;
+  flex-direction: row;
+}
+
+.explore2Button {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: 15px;
+  background: rgb(201, 37, 37);
+  padding: 20px;
+  border-radius: 50px;
+  border: none;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  transition: all 0.4s ease 0s;
+}
+
+.explore2Button:hover {
+  background: rgb(201, 37, 37);
+  letter-spacing: 2px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
 }

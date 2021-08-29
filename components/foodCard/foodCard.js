@@ -7,14 +7,17 @@ import StarIcon from "@material-ui/icons/Star";
 const useStyles = makeStyles((theme) => ({
   foodPaper: {
     height: "350px",
+    width: "370px",
     borderRadius: "10px",
+    marginRight: "30px",
   },
   ratingPaper: {
     height: "30px",
-    width: "78px",
+    width: "75px",
     padding: "6px",
     marginTop: "-45px",
     marginLeft: "270px",
+    float: "left",
   },
 }));
 
@@ -28,6 +31,7 @@ function FoodCard(props) {
             <img className="foodImage" src={props.foodImage}></img>
             <h2 className="foodTitle">{props.foodTitle}</h2>
             <p className="foodPlace">{props.foodPlace}</p>
+            
             <div>
               <Paper className={classes.ratingPaper} elevation={3}>
                 <StarIcon className="starIcon" />

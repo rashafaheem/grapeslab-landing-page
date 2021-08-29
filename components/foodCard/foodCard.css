@@ -4,11 +4,6 @@
   padding-bottom: 0.5px;
 }
 
-.foodPaper {
-  /* margin-left: 25px; */
-  width: 370px;
-}
-
 .foodPaper:hover {
   -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
@@ -25,17 +20,18 @@
 
 .foodTitle {
   display: flex;
-  float: right;
+  float: left;
 }
 
 .foodPlace {
   color: rgb(153, 152, 152);
+  margin-top: 20px;
+  float: left;
 }
 
 .foodRating {
   display: flex;
-  /* float: left; */
-  margin-top: -6px;
+  margin-top: -1px;
   padding-left: 4px;
   font-size: 12px;
   font-weight: bold;
