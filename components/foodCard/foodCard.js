@@ -23,15 +23,19 @@ const useStyles = makeStyles((theme) => ({
 
 function FoodCard(props) {
   const classes = useStyles();
+  const [show, setShow] = React.useState(false);
   return (
     <div>
       <Grid item xs={12} lg={4} className="foodPaper">
         <Paper className={classes.foodPaper} elevation={3}>
           <div className="foodCards">
+            <div className={props.show ? "show" : null}>
+              <img className="tagImage" src={props.tag}></img>
+              <p className="discount">{props.discount}</p>
+            </div>
             <img className="foodImage" src={props.foodImage}></img>
             <h2 className="foodTitle">{props.foodTitle}</h2>
             <p className="foodPlace">{props.foodPlace}</p>
-            
             <div>
               <Paper className={classes.ratingPaper} elevation={3}>
                 <StarIcon className="starIcon" />

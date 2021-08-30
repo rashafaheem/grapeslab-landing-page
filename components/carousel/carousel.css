@@ -72,10 +72,12 @@
 
 .removeIcon {
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .addIcon {
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .contentImage3 {

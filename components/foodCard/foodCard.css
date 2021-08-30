@@ -18,6 +18,22 @@
   border-radius: 5%;
 }
 
+.tagImage {
+  position: absolute;
+  height: 70px;
+  width: 100px;
+  margin-left: -26px;
+  transform: rotate(225deg);
+}
+
+.discount {
+  color: rgb(253, 253, 253);
+  font-size: 13px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 6px;
+}
+
 .foodTitle {
   display: flex;
   float: left;

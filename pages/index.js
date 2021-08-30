@@ -34,6 +34,8 @@ export default function Home() {
         <div className="foodCardss">
           <FoodCard
             className="foodCard1"
+            tag="./tag.svg"
+            discount="20% Off"
             foodImage="./burgerImage.jpg"
             foodTitle="Food Point Resturant"
             foodPlace="Dhaka, Bangladesh"
@@ -41,6 +43,7 @@ export default function Home() {
           />
           <FoodCard
             className="foodCard1"
+            show
             foodImage="./food2.jpg"
             foodTitle="Red Chilli Mini Chinese"
             foodPlace="Dhaka, Bangladesh"
@@ -48,6 +51,8 @@ export default function Home() {
           />
           <FoodCard
             className="foodCard1"
+            tag="./tag.svg"
+            discount="10% Off"
             foodImage="./food3.jpg"
             foodTitle="Nilabali Hotel & Resturant"
             foodPlace="Dhaka, Bangladesh"
@@ -57,6 +62,7 @@ export default function Home() {
         <div className="foodCardss">
           <FoodCard
             className="foodCard1"
+            tag=""
             foodImage="./food4.jpg"
             foodTitle="Ma Restora & Kebab House"
             foodPlace="Dhaka, Bangladesh"
@@ -64,6 +70,8 @@ export default function Home() {
           />
           <FoodCard
             className="foodCard1"
+            tag="./tag.svg"
+            discount="25% Off"
             foodImage="./food5.jpg"
             foodTitle="Wedges Mama Food Corner"
             foodPlace="Dhaka, Bangladesh"
@@ -71,6 +79,8 @@ export default function Home() {
           />
           <FoodCard
             className="foodCard1"
+            tag="./tag.svg"
+            discount="15% Off"
             foodImage="./food6.jpg"
             foodTitle="Black Birch Kitchen & Lounge"
             foodPlace="Dhaka, Bangladesh"
