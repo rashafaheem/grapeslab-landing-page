@@ -1,0 +1,37 @@
+.title41 {
+  color: rgb(201, 37, 37);
+}
+
+.title42 {
+  color: rgb(15, 15, 53);
+  font-size: 40px;
+  margin-top: -3px;
+}
+
+.subtitle {
+  color: rgb(121, 121, 121);
+  margin-top: -20px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.contentImage4 {
+  height: 600px;
+  width: 600px;
+  margin-top: -100px;
+  margin-left: 50px;
+}
+
+.appStore {
+  height: 160px;
+  width: 140px;
+  margin-top: -40px;
+  cursor: pointer;
+}
+
+.playStore {
+  height: 80px;
+  width: 162px;
+  float: right;
+  cursor: pointer;
+}

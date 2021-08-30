@@ -6,6 +6,7 @@ import "../components/marketingCards/marketingCards.css";
 import "../components/middleContent/middleContent.css";
 import "../components/foodCard/foodCard.css";
 import "../components/carousel/carousel.css";
+import "../components/endContent/endContent.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

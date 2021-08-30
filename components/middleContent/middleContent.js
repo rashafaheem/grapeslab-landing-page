@@ -5,7 +5,6 @@ import Paper from "@material-ui/core/Paper";
 
 const useStyles = makeStyles((theme) => ({
   imagePaper2: {
-    // backgroundColor: "rgb(254 242 242)",
     height: "800px",
     width: "600px",
     marginTop: "130px",

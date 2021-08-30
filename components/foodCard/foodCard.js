@@ -31,8 +31,8 @@ function FoodCard(props) {
           <div className="foodCards">
             <div className={props.show ? "show" : null}>
               <img className="tagImage" src={props.tag}></img>
-              <p className="discount">{props.discount}</p>
             </div>
+            <p className="discount">{props.discount}</p>
             <img className="foodImage" src={props.foodImage}></img>
             <h2 className="foodTitle">{props.foodTitle}</h2>
             <p className="foodPlace">{props.foodPlace}</p>

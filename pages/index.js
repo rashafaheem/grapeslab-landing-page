@@ -4,6 +4,7 @@ import MarketingCards from "../components/marketingCards/marketingCards.js";
 import MiddleContent from "../components/middleContent/middleContent.js";
 import FoodCard from "../components/foodCard/foodCard.js";
 import Carousel from "../components/carousel/carousel.js";
+import EndContent from "../components/endContent/endContent.js";
 
 export default function Home() {
   return (
@@ -89,6 +90,7 @@ export default function Home() {
         </div>
         <button className="explore2Button">Explore All Resturants</button>
         <Carousel />
+        <EndContent />
       </div>
       {/* </Grid> */}
     </div>
