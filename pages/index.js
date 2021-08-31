@@ -5,6 +5,7 @@ import MiddleContent from "../components/middleContent/middleContent.js";
 import FoodCard from "../components/foodCard/foodCard.js";
 import Carousel from "../components/carousel/carousel.js";
 import EndContent from "../components/endContent/endContent.js";
+import Testimonial from "../components/testimonial/testimonial.js";
 
 export default function Home() {
   return (
@@ -91,6 +92,7 @@ export default function Home() {
         <button className="explore2Button">Explore All Resturants</button>
         <Carousel />
         <EndContent />
+        <Testimonial />
       </div>
       {/* </Grid> */}
     </div>

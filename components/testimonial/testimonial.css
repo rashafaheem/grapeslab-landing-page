@@ -1,0 +1,49 @@
+.testimonialCard {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin-left: 160px;
+}
+
+.title51 {
+  color: rgb(201, 37, 37);
+}
+
+.title52 {
+  color: rgb(15, 15, 53);
+  font-size: 40px;
+  margin-top: -3px;
+}
+
+.testDiv {
+  margin-left: 20px;
+}
+
+.reviewContents {
+  padding: 20px;
+}
+
+.review {
+  color: rgb(112, 110, 110);
+  line-height: 35px;
+}
+
+.clientDP {
+  height: 90px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.clientDetailsDiv {
+  position: absolute;
+  display: inline;
+  padding: 15px;
+}
+
+.clientName {
+  margin-top: 30px;
+}
+.clientPlace {
+  margin-top: -15px;
+  color: gray;
+}

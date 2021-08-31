@@ -7,6 +7,7 @@ import "../components/middleContent/middleContent.css";
 import "../components/foodCard/foodCard.css";
 import "../components/carousel/carousel.css";
 import "../components/endContent/endContent.css";
+import "../components/testimonial/testimonial.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
