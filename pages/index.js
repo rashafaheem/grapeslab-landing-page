@@ -6,6 +6,7 @@ import FoodCard from "../components/foodCard/foodCard.js";
 import Carousel from "../components/carousel/carousel.js";
 import EndContent from "../components/endContent/endContent.js";
 import Testimonial from "../components/testimonial/testimonial.js";
+import Footer from "../components/footer/footer.js";
 
 export default function Home() {
   return (
@@ -45,7 +46,6 @@ export default function Home() {
           />
           <FoodCard
             className="foodCard1"
-            show
             foodImage="./food2.jpg"
             foodTitle="Red Chilli Mini Chinese"
             foodPlace="Dhaka, Bangladesh"
@@ -93,6 +93,7 @@ export default function Home() {
         <Carousel />
         <EndContent />
         <Testimonial />
+        <Footer />
       </div>
       {/* </Grid> */}
     </div>

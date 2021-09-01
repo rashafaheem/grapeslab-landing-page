@@ -1,0 +1,68 @@
+.footerDiv {
+  padding-left: 90px;
+  padding-top: 80px;
+}
+
+.Flogo {
+  height: 50px;
+  width: 50px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.Fgrapeslab {
+  display: inline;
+  vertical-align: middle;
+}
+
+.Fsubtext {
+  font-size: 17px;
+  color: gray;
+}
+
+.firstColumn {
+  float: left;
+  padding-right: 200px;
+}
+
+.subColumnDiv {
+  float: left;
+}
+
+.secondColumnGrid {
+  float: left;
+}
+
+.secondColumn {
+  float: left;
+  margin-right: 40px;
+}
+
+.h3 {
+  font-size: 17px;
+}
+
+.divider {
+  margin-top: 60px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.copyright {
+  color: gray;
+  margin-top: 40px;
+  padding-left: 90px;
+  /*  */
+}
+
+.creditcard {
+  height: 170px;
+  width: 270px;
+  float: right;
+  margin-top: -115px;
+  padding-right: 90px;
+}
+
+a {
+  cursor: pointer;
+}
