@@ -25,8 +25,8 @@ function FoodCard(props) {
   const classes = useStyles();
   const [show, setShow] = React.useState(false);
   return (
-    <div>
-      <Grid item xs={12} lg={4} className="foodPaper">
+    <div className="foodCardDiv">
+      <Grid item xs={12} lg={12} className="foodPaper">
         <Paper className={classes.foodPaper} elevation={3}>
           <div className="foodCards">
             <div className={props.show ? "show" : null}>

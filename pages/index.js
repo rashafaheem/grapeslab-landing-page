@@ -7,6 +7,7 @@ import Carousel from "../components/carousel/carousel.js";
 import EndContent from "../components/endContent/endContent.js";
 import Testimonial from "../components/testimonial/testimonial.js";
 import Footer from "../components/footer/footer.js";
+import Grid from "@material-ui/core/Grid";
 
 export default function Home() {
   return (
@@ -40,14 +41,14 @@ export default function Home() {
             tag="./tag.svg"
             discount="20% Off"
             foodImage="./burgerImage.jpg"
-            foodTitle="Food Point Resturant"
+            foodTitle="Food Point Resturant (Chinese) "
             foodPlace="Dhaka, Bangladesh"
             foodRating="4.8/5"
           />
           <FoodCard
             className="foodCard1"
             foodImage="./food2.jpg"
-            foodTitle="Red Chilli Mini Chinese"
+            foodTitle="Red Chilli Mini Chinese & Restora"
             foodPlace="Dhaka, Bangladesh"
             foodRating="4.7/5"
           />

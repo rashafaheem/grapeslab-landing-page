@@ -32,8 +32,9 @@ function MiddleContent() {
             <h2 className="title3">Our Delicious Food</h2>
             <p className="subtitle2">
               Food is a great way to meet people and make friends. When people
-              share a meal, you can be sure the discussions about food,
-              restaurants and recipes are going to be endless.
+              share a<br /> meal, you can be sure the discussions about food,
+              restaurants and recipes are
+              <br /> going to be endless.
             </p>
             <button className="exploreButton">Explore Menu</button>
           </Paper>

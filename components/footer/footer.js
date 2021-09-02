@@ -7,7 +7,6 @@ import Divider from "@material-ui/core/Divider";
 const useStyles = makeStyles((theme) => ({
   footerPaper: {
     backgroundColor: "#f6f6f6",
-    height: "430px",
     width: "100%",
     marginBottom: "0px",
     marginTop: "400px",
@@ -17,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
 function Footer() {
   const classes = useStyles();
   return (
-    <div>
+    <div className="align">
       <Grid container>
         <Paper className={classes.footerPaper} elevation={0}>
           <div className="footerDiv">
@@ -45,39 +44,39 @@ function Footer() {
                 </div>
               </div>
             </Grid>
-            <Grid item xs={12} lg={4} className="secondColumnGrid">
-              <div className="">
-                <div className="secondColumn">
-                  <h3 className="h3">Support</h3>
-                  <a>
-                    <p className="Fsubtext">Account</p>
-                  </a>
-                  <a>
-                    <p className="Fsubtext">Support Center</p>
-                  </a>
-                  <a>
-                    <p className="Fsubtext">Feedback</p>
-                  </a>
-                  <a>
-                    <p className="Fsubtext">Accebility</p>
-                  </a>
-                </div>
-                <div className="secondColumn">
-                  <h3 className="h3">Our Menu</h3>
-                  <a>
-                    <p className="Fsubtext">Special</p>
-                  </a>
-                  <a>
-                    <p className="Fsubtext">Popular</p>
-                  </a>
-                  <a>
-                    <p className="Fsubtext">Categories</p>
-                  </a>
-                </div>
+            <Grid item xs={6} lg={4} className="secondColumnGrid">
+              <div className="secondColumn">
+                <h3 className="h3">Support</h3>
+                <a>
+                  <p className="Fsubtext">Account</p>
+                </a>
+                <a>
+                  <p className="Fsubtext">Support Center</p>
+                </a>
+                <a>
+                  <p className="Fsubtext">Feedback</p>
+                </a>
+                <a>
+                  <p className="Fsubtext">Accebility</p>
+                </a>
               </div>
             </Grid>
-            <Grid item xs={12} lg={4} className="secondColumnGrid">
-              <div className="secondColumn">
+            <Grid item xs={6} lg={4} className="secondColumnGrid">
+              <div className="thirdColumn">
+                <h3 className="h3">Our Menu</h3>
+                <a>
+                  <p className="Fsubtext">Special</p>
+                </a>
+                <a>
+                  <p className="Fsubtext">Popular</p>
+                </a>
+                <a>
+                  <p className="Fsubtext">Categories</p>
+                </a>
+              </div>
+            </Grid>
+            <Grid item xs={6} lg={4} className="secondColumnGrid">
+              <div className="fourthColumn">
                 <h3 className="h3">Useful Links</h3>
                 <a>
                   <p className="Fsubtext">Payment & Tax</p>
@@ -92,7 +91,9 @@ function Footer() {
                   <p className="Fsubtext">About Us</p>
                 </a>
               </div>
-              <div className="secondColumn">
+            </Grid>
+            <Grid item xs={6} lg={4} className="secondColumnGrid">
+              <div className="fifthColumn">
                 <h3 className="h3">Get in touch</h3>
                 <a>
                   <p className="Fsubtext">hellograpeslab@gmail.com</p>

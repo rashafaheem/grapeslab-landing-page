@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
 function topContent() {
   const classes = useStyles();
   return (
-    <div>
+    <div className="topContentDiv">
       <Grid container spacing={2}>
         <Grid item xs={12} lg={6}>
           <Paper className="frame1" elevation={0}>
@@ -27,7 +27,7 @@ function topContent() {
             </p>
             <button className="findButton">Find A Food</button>
             <button className="searchButton">
-              Search {<SearchIcon className="searchIcon" />}
+              Search {<SearchIcon className="searchIcon" fontSize="small" />}
             </button>
           </Paper>
         </Grid>

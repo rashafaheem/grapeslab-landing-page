@@ -1,3 +1,9 @@
+.carouselDiv {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
 .frame3 {
   margin-top: 240px;
   margin-left: 80px;
@@ -36,13 +42,13 @@
   letter-spacing: 1px;
   font-size: 15px;
   background: none;
-  padding: 0px;
   border-radius: 50px;
   height: 60px;
   width: 170px;
   display: inline-block;
-  border: 2px solid rgb(201, 37, 37);
+  margin-left: 20px;
   margin-top: 40px;
+  border: 2px solid rgb(201, 37, 37);
 }
 
 .addButton {
@@ -52,7 +58,8 @@
   letter-spacing: 1px;
   font-size: 15px;
   background: rgb(201, 37, 37);
-  padding: 20px;
+  padding-top: 25px;
+  padding-bottom: 18px;
   border-radius: 50px;
   width: 170px;
   display: inline-block;
@@ -71,7 +78,7 @@
 }
 
 .removeIcon {
-  margin-right: 10px;
+  margin-right: 16px;
   cursor: pointer;
 }
 

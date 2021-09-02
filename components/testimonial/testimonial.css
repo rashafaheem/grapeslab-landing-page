@@ -1,8 +1,11 @@
 .testimonialCard {
-  position: absolute;
   display: flex;
-  flex-direction: row;
   margin-left: 260px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 0;
+  top: 0;
 }
 
 .title51 {

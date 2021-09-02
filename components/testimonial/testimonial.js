@@ -8,7 +8,8 @@ const useStyles = makeStyles((theme) => ({
   subPaper: {
     backgroundColor: "rgb(254 242 242)",
     height: "400px",
-    width: "1140px",
+    width: "90%",
+    float: "right",
     position: "absolute",
     marginTop: "-230px",
     marginLeft: "160px",

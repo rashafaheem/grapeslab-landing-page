@@ -6,6 +6,9 @@
 
 .cardPaper {
   margin-left: 25px;
+  align-items: center;
+  display: flex;
+  margin: auto;
 }
 
 .cardPaper:hover {
