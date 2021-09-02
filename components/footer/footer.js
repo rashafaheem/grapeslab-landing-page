@@ -29,12 +29,20 @@ function Footer() {
                   Lorem ipsum dolor sit amet <br />
                   consectetur adipiscing elit.
                 </p>
-                <p className="Fsubtext">
-                  Lorem ipsum dolor sit amet <br />
-                  consectetur adipiscing elit.
-                </p>
-
-                <div className="socialButtons">{/* <button ></button> */}</div>
+                <div className="">
+                  <a>
+                    <img className="fb" src="./fb.png"></img>
+                  </a>
+                  <a>
+                    <img className="twitter" src="./twitter.png"></img>
+                  </a>
+                  <a>
+                    <img className="instagram" src="./instagram.png"></img>
+                  </a>
+                  <a>
+                    <img className="linkedIn" src="./linkedIn.png"></img>
+                  </a>
+                </div>
               </div>
             </Grid>
             <Grid item xs={12} lg={4} className="secondColumnGrid">
