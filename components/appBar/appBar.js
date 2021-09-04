@@ -30,6 +30,7 @@ export default function HideAppBar(props) {
   return (
     <React.Fragment>
       <HideOnScroll {...props}>
+        <Grid container>
         <Grid item xs={12} sm={12}>
           <Paper>
             <AppBar elevation={0}>
@@ -49,6 +50,7 @@ export default function HideAppBar(props) {
             </AppBar>
           </Paper>
         </Grid>
+      </Grid>
       </HideOnScroll>
       <Toolbar />
     </React.Fragment>

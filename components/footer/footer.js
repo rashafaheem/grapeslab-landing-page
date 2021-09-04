@@ -3,23 +3,21 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import Divider from "@material-ui/core/Divider";
-
-const useStyles = makeStyles((theme) => ({
-  footerPaper: {
-    backgroundColor: "#f6f6f6",
-    width: "100%",
-    marginBottom: "0px",
-    marginTop: "400px",
-  },
-}));
+ 
+// const useStyles = makeStyles((theme) => ({
+//   footer: {
+//     backgroundColor: "#f6f6f6",
+//     width: "100%",
+//     marginBottom: "0px",
+//     marginTop: "150px",
+//   },
+// }));
 
 function Footer() {
-  const classes = useStyles();
+  // const classes = useStyles();
   return (
     <div className="align">
-      <Grid container>
-        <Paper className={classes.footerPaper} elevation={0}>
-          <div className="footerDiv">
+      <Grid container className="footer">
             <Grid item xs={12} lg={4} className="firstColumn">
               <div className="firstColumnDiv">
                 <img className="Flogo" src="/logo.png" alt="logo" />
@@ -42,9 +40,9 @@ function Footer() {
                     <img className="linkedIn" src="./linkedIn.png"></img>
                   </a>
                 </div>
-              </div>
+                </div>
             </Grid>
-            <Grid item xs={6} lg={4} className="secondColumnGrid">
+            <Grid item xs={12} lg={2} className="secondColumnGrid">
               <div className="secondColumn">
                 <h3 className="h3">Support</h3>
                 <a>
@@ -61,7 +59,7 @@ function Footer() {
                 </a>
               </div>
             </Grid>
-            <Grid item xs={6} lg={4} className="secondColumnGrid">
+            <Grid item xs={12} lg={2} className="secondColumnGrid">
               <div className="thirdColumn">
                 <h3 className="h3">Our Menu</h3>
                 <a>
@@ -75,7 +73,7 @@ function Footer() {
                 </a>
               </div>
             </Grid>
-            <Grid item xs={6} lg={4} className="secondColumnGrid">
+            <Grid item xs={12} lg={2} className="secondColumnGrid">
               <div className="fourthColumn">
                 <h3 className="h3">Useful Links</h3>
                 <a>
@@ -92,7 +90,7 @@ function Footer() {
                 </a>
               </div>
             </Grid>
-            <Grid item xs={6} lg={4} className="secondColumnGrid">
+            <Grid item xs={12} lg={2} className="secondColumnGrid">
               <div className="fifthColumn">
                 <h3 className="h3">Get in touch</h3>
                 <a>
@@ -103,7 +101,6 @@ function Footer() {
                 </a>
               </div>
             </Grid>
-          </div>
           <Grid item xs={12} lg={12}>
             <div className="divider">
               <Divider className="divider" />
@@ -113,7 +110,6 @@ function Footer() {
               <img className="creditcard" src="./cc1.png"></img>
             </a>
           </Grid>
-        </Paper>
       </Grid>
     </div>
   );

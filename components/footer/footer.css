@@ -1,10 +1,14 @@
 .footerDiv {
-  padding-left: 90px;
-  padding-top: 80px;
-  padding-right: 90px;
   align-items: center;
   display: flex;
   justify-content: center;
+  width: "100%";
+}
+
+.footer {
+  background-color: #f6f6f6;
+  width: "100%";
+  margin-top: "150px";
 }
 
 .Flogo {
@@ -25,8 +29,8 @@
 }
 
 .firstColumn {
-  float: left;
-  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .fb {
@@ -53,9 +57,8 @@
 }
 
 .secondColumn {
-  margin: auto;
-  margin-right: -40px;
-  float: right;
+  margin-top: 50px;
+  margin-left: 190px;
 }
 
 .thirdColumn {

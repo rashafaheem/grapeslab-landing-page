@@ -5,7 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import RemoveIcon from "@material-ui/icons/Remove";
 import AddIcon from "@material-ui/icons/Add";
-
+ 
 const useStyles = makeStyles((theme) => ({
   grid: {
     backgroundColor: "rgb(254 242 242)",
@@ -38,6 +38,7 @@ function carouselFrame() {
   };
 
   const handleClick2 = () => {
+    if (counter>0)
     setCounter(counter - 1);
   };
   return (
@@ -53,6 +54,7 @@ function carouselFrame() {
               <h2 className="cutPrice">$48</h2>
               <h3 className="offPrice">$39</h3>
               <br />
+              <div className="buttons">
               <button className="itemButton">
                 {
                   <RemoveIcon
@@ -71,6 +73,7 @@ function carouselFrame() {
                 }
               </button>
               <button className="addButton">Add To Cart</button>
+              </div>
             </Paper>
           </Grid>
           <Grid item xs={6} lg={6}>

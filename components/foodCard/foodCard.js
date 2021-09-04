@@ -29,9 +29,10 @@ function FoodCard(props) {
       <Grid item xs={12} lg={12} className="foodPaper">
         <Paper className={classes.foodPaper} elevation={3}>
           <div className="foodCards">
-            <div className={props.show ? "show" : null}>
+           
+           {props.tag?<div >
               <img className="tagImage" src={props.tag}></img>
-            </div>
+            </div>:<></>}
             <p className="discount">{props.discount}</p>
             <img className="foodImage" src={props.foodImage}></img>
             <h2 className="foodTitle">{props.foodTitle}</h2>

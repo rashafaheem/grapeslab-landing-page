@@ -3,7 +3,7 @@ import CarouselFrame from "./carouselFrame.js";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import Grid from "@material-ui/core/Grid";
-
+ 
 function carousel() {
   const responsive = {
     superLargeDesktop: {
