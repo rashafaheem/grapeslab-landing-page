@@ -18,25 +18,23 @@ function ReviewCard(props) {
   const classes = useStyles();
   return (
     <div className="setofCardsDiv">
-      <Grid item xs={12} lg={12}>
-        <Paper className={classes.reviewPaper} elevation={3}>
-          <div className="reviewContents">
-            <p className="review">{props.review}</p>
-            <img className="clientDP" src={props.clientDP}></img>
-            <div className="clientDetailsDiv">
-              <div className="starts">
-                <StarIcon className="starIcon" />
-                <StarIcon className="starIcon" />
-                <StarIcon className="starIcon" />
-                <StarIcon className="starIcon" />
-                <StarBorderIcon className="starIcon" />
-              </div>
-              <h3 className="clientName">{props.clientName}</h3>
-              <p className="clientPlace">{props.clientPlace}</p>
+      <Paper className={classes.reviewPaper} elevation={3}>
+        <div className="reviewContents">
+          <p className="review">{props.review}</p>
+          <img className="clientDP" src={props.clientDP}></img>
+          <div className="clientDetailsDiv">
+            <div className="starts">
+              <StarIcon className="starIcon" />
+              <StarIcon className="starIcon" />
+              <StarIcon className="starIcon" />
+              <StarIcon className="starIcon" />
+              <StarBorderIcon className="starIcon" />
             </div>
+            <h3 className="clientName">{props.clientName}</h3>
+            <p className="clientPlace">{props.clientPlace}</p>
           </div>
-        </Paper>
-      </Grid>
+        </div>
+      </Paper>
     </div>
   );
 }

@@ -94,13 +94,15 @@ function Footer() {
             <Divider className="divider" />
           </div>
         </Grid>
-        <Grid item xs={4} lg={6}>
-          <p className="copyright">© 2021 Grapeslab. All rights reserved.</p>
-        </Grid>
-        <Grid item xs={8} lg={6}>
-          <a>
-            <img className="creditcard" src="./cc1.png"></img>
-          </a>
+        <Grid container spacing={3}>
+          <Grid item xs={12} lg={6}>
+            <p className="copyright">© 2021 Grapeslab. All rights reserved.</p>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <a>
+              <img className="creditcard" src="./cc1.png"></img>
+            </a>
+          </Grid>
         </Grid>
       </Grid>
     </div>

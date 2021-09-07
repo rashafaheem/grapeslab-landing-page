@@ -10,10 +10,9 @@ const useStyles = makeStyles((theme) => ({
     height: "400px",
     width: "90%",
     float: "right",
-    position: "absolute",
-    marginTop: "-230px",
+    marginTop: "90px",
     marginLeft: "160px",
-    marginRigt: "50px",
+    marginRigt: "70px",
   },
 }));
 
@@ -31,20 +30,24 @@ function Testimonial() {
             </h2>
           </div>
         </Paper>
-        <div className="testimonialCard">
+      </Grid>
+      <Grid container spacing={3} className="reviewContainer">
+        <Grid item xs={12} lg={6}>
           <ReviewCard
             review="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
             clientDP="./dp1.jpg"
             clientName="Micheal Joy Das"
             clientPlace="San Jose, South Dakota 83475"
           />
+        </Grid>
+        <Grid item xs={12} lg={6}>
           <ReviewCard
             review="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
             clientDP="./dp2.jpg"
             clientName="Jerome Bell"
             clientPlace="Gray St. Utica, Pennsylvania 57867"
           />
-        </div>
+        </Grid>
       </Grid>
     </div>
   );

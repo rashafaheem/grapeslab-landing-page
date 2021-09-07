@@ -5,13 +5,12 @@ import Paper from "@material-ui/core/Paper";
 
 const useStyles = makeStyles((theme) => ({
   imagePaper4: {
-    height: "800px",
     width: "600px",
-    marginTop: "130px",
+    marginTop: "100px",
   },
   frame4: {
     width: "302px",
-    marginTop: "150px",
+    marginTop: "130px",
     marginLeft: "80px",
   },
 }));

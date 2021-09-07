@@ -5,11 +5,11 @@ import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import RemoveIcon from "@material-ui/icons/Remove";
 import AddIcon from "@material-ui/icons/Add";
- 
+
 const useStyles = makeStyles((theme) => ({
   grid: {
     backgroundColor: "rgb(254 242 242)",
-    height: "720px",
+    height: "820px",
     width: "100%",
     marginTop: "80px",
   },
@@ -38,8 +38,7 @@ function carouselFrame() {
   };
 
   const handleClick2 = () => {
-    if (counter>0)
-    setCounter(counter - 1);
+    if (counter > 0) setCounter(counter - 1);
   };
   return (
     <div>
@@ -55,24 +54,24 @@ function carouselFrame() {
               <h3 className="offPrice">$39</h3>
               <br />
               <div className="buttons">
-              <button className="itemButton">
-                {
-                  <RemoveIcon
-                    className="removeIcon"
-                    onClick={handleClick2}
-                    fontSize="small"
-                  />
-                }
-                {counter} {""}
-                {
-                  <AddIcon
-                    className="addIcon"
-                    onClick={handleClick1}
-                    fontSize="small"
-                  />
-                }
-              </button>
-              <button className="addButton">Add To Cart</button>
+                <button className="itemButton">
+                  {
+                    <RemoveIcon
+                      className="removeIcon"
+                      onClick={handleClick2}
+                      fontSize="small"
+                    />
+                  }
+                  {counter} {""}
+                  {
+                    <AddIcon
+                      className="addIcon"
+                      onClick={handleClick1}
+                      fontSize="small"
+                    />
+                  }
+                </button>
+                <button className="addButton">Add To Cart</button>
               </div>
             </Paper>
           </Grid>
