@@ -1,14 +1,18 @@
-.footerDiv {
+.footer {
   align-items: center;
   display: flex;
   justify-content: center;
   width: "100%";
+  padding-top: 100px;
 }
 
-.footer {
+.footerGrid {
   background-color: #f6f6f6;
   width: "100%";
-  margin-top: "150px";
+  padding-top: 60px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 60px;
 }
 
 .Flogo {
@@ -31,6 +35,13 @@
 .firstColumn {
   align-items: center;
   justify-content: center;
+  padding-bottom: 50px;
+}
+
+.socialLogos {
+  display: flex;
+  align-items: center;
+  vertical-align: bottom;
 }
 
 .fb {
@@ -40,41 +51,20 @@
 }
 
 .twitter {
-  height: 45px;
-  width: 45px;
-  margin-right: 8px;
-}
-
-.instagram {
   height: 42px;
   width: 42px;
   margin-right: 10px;
 }
 
-.linkedIn {
+.instagram {
   height: 40px;
   width: 40px;
+  margin-right: 12px;
 }
 
-.secondColumn {
-  margin-top: 50px;
-  margin-left: 190px;
-}
-
-.thirdColumn {
-  margin-right: 40px;
-  margin-top: -40px;
-  float: right;
-}
-
-.fourthColumn {
-  margin-right: 40px;
-  float: right;
-}
-
-.fifthColumn {
-  margin-top: -82px;
-  float: right;
+.linkedIn {
+  height: 37px;
+  width: 37px;
 }
 
 .h3 {
@@ -83,22 +73,18 @@
 
 .divider {
   margin-top: 60px;
-  padding-left: 90px;
-  padding-right: 90px;
 }
 
 .copyright {
   color: gray;
   margin-top: 40px;
-  padding-left: 90px;
 }
 
 .creditcard {
-  height: 170px;
-  width: 250px;
+  height: 190px;
+  width: 220px;
   float: right;
-  margin-top: -115px;
-  padding-right: 90px;
+  margin-top: -40px;
 }
 
 a {
