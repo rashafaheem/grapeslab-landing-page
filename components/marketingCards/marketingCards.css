@@ -5,10 +5,10 @@
 }
 
 .cardPaper {
-  margin-left: 25px;
   align-items: center;
   display: flex;
   margin: auto;
+  margin-bottom: 10px;
 }
 
 .cardPaper:hover {

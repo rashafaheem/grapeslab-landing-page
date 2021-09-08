@@ -1,3 +1,8 @@
+.home {
+  display: flex;
+  margin: auto;
+}
+
 .miniCard {
   display: flex;
   margin: auto;
@@ -5,7 +10,7 @@
   margin-left: 90px;
   margin-right: 90px;
 }
- 
+
 .foodCardss {
   margin-top: 30px;
   margin-left: 90px;

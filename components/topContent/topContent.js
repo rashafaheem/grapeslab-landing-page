@@ -16,8 +16,8 @@ function topContent() {
   const classes = useStyles();
   return (
     <div className="topContentDiv">
-      <Grid container spacing={2}>
-        <Grid item xs={12} lg={6}>
+      <Grid container spacing={3}>
+        <Grid item xs={12} lg={6} className="topGrid">
           <Paper className="frame1" elevation={0}>
             <h1 className="title">We Serve The Taste You Love</h1>
             <p className="subtitle">
@@ -25,16 +25,16 @@ function topContent() {
               share a meal, you can be sure the discussions about food,
               restaurants and recipes are going to be endless.
             </p>
-            <button className="findButton">Find A Food</button>
-            <button className="searchButton">
-              Search {<SearchIcon className="searchIcon" fontSize="small" />}
-            </button>
+            <Grid item xs={12} lg={6} spacing={4} className="topGrid">
+              <button className="findButton">Find A Food</button>
+              <button className="searchButton">
+                Search {<SearchIcon className="searchIcon" fontSize="small" />}
+              </button>
+            </Grid>
           </Paper>
         </Grid>
-        <Grid item xs={12} lg={6}>
-          <Paper className={classes.imagePaper} elevation={0}>
-            <img className="contentImage" src="/contentImage.jpg" alt="image" />
-          </Paper>
+        <Grid item xs={12} lg={6} className="topGrid">
+          <img className="contentImage" src="/contentImage.jpg" alt="image" />
         </Grid>
       </Grid>
     </div>

@@ -1,8 +1,14 @@
+.topGrid {
+  margin: auto;
+  display: inline;
+}
+
 .topContentDiv {
   align-items: center;
   display: flex;
   justify-content: center;
   margin: auto;
+  margin-right: 60px;
 }
 
 .frame1 {
@@ -36,7 +42,8 @@
   width: 170px;
   display: inline-block;
   border: none;
-  margin-left: 70px;
+  margin-right: 40px;
+  margin-bottom: 10px;
   transition: all 0.4s ease 0s;
 }
 
@@ -66,7 +73,6 @@
   width: 170px;
   display: inline-block;
   border: 2px solid rgb(201, 37, 37);
-  margin-left: 70px;
   transition: all 0.4s ease 0s;
 }
 
@@ -80,7 +86,7 @@
 }
 
 .contentImage {
-  height: 800px;
-  width: 600px;
-  padding-bottom: -5px;
+  height: 100%;
+  width: 100%;
+  margin: auto;
 }
