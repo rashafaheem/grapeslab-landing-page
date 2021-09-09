@@ -11,13 +11,6 @@
   transition: all 0.4s ease 0s;
 }
 
-.foodImage {
-  height: 200px;
-  width: 347px;
-  margin-top: 10px;
-  border-radius: 5%;
-}
-
 .tagImage {
   position: absolute;
   height: 70px;
@@ -43,7 +36,11 @@
   color: rgb(153, 152, 152);
   margin-top: 20px;
   float: left;
-  /* margin-top: 10px; */
+}
+
+.ratingCardDiv {
+  display: flex;
+  float: right;
 }
 
 .foodRating {

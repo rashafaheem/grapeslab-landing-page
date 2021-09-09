@@ -17,13 +17,11 @@ function MiddleContent() {
     <div>
       <Grid container spacing={2}>
         <Grid item xs={12} lg={6}>
-          <Paper className={classes.imagePaper2} elevation={0}>
-            <img
-              className="contentImage2"
-              src="/contentImage2.jpg"
-              alt="imagee"
-            />
-          </Paper>
+          <img
+            className="contentImage2"
+            src="/contentImage2.jpg"
+            alt="imagee"
+          />
         </Grid>
         <Grid item xs={12} lg={6}>
           <Paper className="frame2" elevation={0}>

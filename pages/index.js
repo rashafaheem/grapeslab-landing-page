@@ -38,59 +38,63 @@ export default function Home() {
         <MiddleContent />
         <br />
         <div className="foodCardss">
-          <FoodCard
-            className="foodCard1"
-            tag="./tag.svg"
-            discount="20% Off"
-            foodImage="./burgerImage.jpg"
-            foodTitle="Food Point Resturant (Chinese) "
-            foodPlace="Dhaka, Bangladesh"
-            foodRating="4.8/5"
-          />
-          <FoodCard
-            className="foodCard1"
-            foodImage="./food2.jpg"
-            foodTitle="Red Chilli Mini Chinese & Restora"
-            foodPlace="Dhaka, Bangladesh"
-            foodRating="4.7/5"
-          />
-          <FoodCard
-            className="foodCard1"
-            tag="./tag.svg"
-            discount="10% Off"
-            foodImage="./food3.jpg"
-            foodTitle="Nilabali Hotel & Resturant"
-            foodPlace="Dhaka, Bangladesh"
-            foodRating="4.6/5"
-          />
+          <Grid container spacing={3}>
+            <FoodCard
+              className="foodCard1"
+              tag="./tag.svg"
+              discount="20% Off"
+              foodImage="./burgerImage.jpg"
+              foodTitle="Food Point Resturant (Chinese) "
+              foodPlace="Dhaka, Bangladesh"
+              foodRating="4.8/5"
+            />
+            <FoodCard
+              className="foodCard1"
+              foodImage="./food2.jpg"
+              foodTitle="Red Chilli Mini Chinese & Restora"
+              foodPlace="Dhaka, Bangladesh"
+              foodRating="4.7/5"
+            />
+            <FoodCard
+              className="foodCard1"
+              tag="./tag.svg"
+              discount="10% Off"
+              foodImage="./food3.jpg"
+              foodTitle="Nilabali Hotel & Resturant"
+              foodPlace="Dhaka, Bangladesh"
+              foodRating="4.6/5"
+            />
+          </Grid>
         </div>
         <div className="foodCardss">
-          <FoodCard
-            className="foodCard1"
-            tag=""
-            foodImage="./food4.jpg"
-            foodTitle="Ma Restora & Kebab House"
-            foodPlace="Dhaka, Bangladesh"
-            foodRating="4.8/5"
-          />
-          <FoodCard
-            className="foodCard1"
-            tag="./tag.svg"
-            discount="25% Off"
-            foodImage="./food5.jpg"
-            foodTitle="Wedges Mama Food Corner"
-            foodPlace="Dhaka, Bangladesh"
-            foodRating="4.9/5"
-          />
-          <FoodCard
-            className="foodCard1"
-            tag="./tag.svg"
-            discount="15% Off"
-            foodImage="./food6.jpg"
-            foodTitle="Black Birch Kitchen & Lounge"
-            foodPlace="Dhaka, Bangladesh"
-            foodRating="4.5/5"
-          />
+          <Grid container spacing={3}>
+            <FoodCard
+              className="foodCard1"
+              tag=""
+              foodImage="./food4.jpg"
+              foodTitle="Ma Restora & Kebab House"
+              foodPlace="Dhaka, Bangladesh"
+              foodRating="4.8/5"
+            />
+            <FoodCard
+              className="foodCard1"
+              tag="./tag.svg"
+              discount="25% Off"
+              foodImage="./food5.jpg"
+              foodTitle="Wedges Mama Food Corner"
+              foodPlace="Dhaka, Bangladesh"
+              foodRating="4.9/5"
+            />
+            <FoodCard
+              className="foodCard1"
+              tag="./tag.svg"
+              discount="15% Off"
+              foodImage="./food6.jpg"
+              foodTitle="Black Birch Kitchen & Lounge"
+              foodPlace="Dhaka, Bangladesh"
+              foodRating="4.5/5"
+            />
+          </Grid>
         </div>
         <button className="explore2Button">Explore All Resturants</button>
         <Carousel />
