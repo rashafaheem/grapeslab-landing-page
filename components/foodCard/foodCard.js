@@ -13,9 +13,10 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "20px",
     height: "350px",
     width: "370px",
-    [theme.breakpoints.down("md")]: {
+    [theme.breakpoints.down("sm")]: {
       maxWidth: 300,
       marginLeft: "-40px",
+      marginRight: "60px",
     },
   },
   ratingPaper: {
@@ -28,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
     width: "347px",
     marginTop: "10px",
     borderRadius: "10px",
-    [theme.breakpoints.down("md")]: {
+    [theme.breakpoints.down("sm")]: {
       maxWidth: 280,
     },
   },

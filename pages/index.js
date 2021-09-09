@@ -64,13 +64,8 @@ export default function Home() {
               foodPlace="Dhaka, Bangladesh"
               foodRating="4.6/5"
             />
-          </Grid>
-        </div>
-        <div className="foodCardss">
-          <Grid container spacing={3}>
             <FoodCard
               className="foodCard1"
-              tag=""
               foodImage="./food4.jpg"
               foodTitle="Ma Restora & Kebab House"
               foodPlace="Dhaka, Bangladesh"

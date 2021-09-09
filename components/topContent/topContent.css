@@ -11,12 +11,6 @@
   margin-right: 60px;
 }
 
-.frame1 {
-  margin-left: 90px;
-  margin-right: 90px;
-  margin-top: 90px;
-}
-
 .title {
   color: rgb(15, 15, 53);
   font-size: 80px;
@@ -26,6 +20,7 @@
 .subtitle {
   color: rgb(121, 121, 121);
   margin-top: -30px;
+  margin-left: 10px;
   line-height: 30px;
   text-align: justify;
 }
@@ -86,7 +81,5 @@
 }
 
 .contentImage {
-  height: 100%;
-  width: 100%;
   margin: auto;
 }
