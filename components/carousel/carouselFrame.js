@@ -2,34 +2,46 @@ import React from "react";
 import { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
+import Card from "@material-ui/core/Card";
 import RemoveIcon from "@material-ui/icons/Remove";
 import AddIcon from "@material-ui/icons/Add";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
+import { useTheme } from "@material-ui/styles";
 
 const useStyles = makeStyles((theme) => ({
   grid: {
     backgroundColor: "rgb(254 242 242)",
-    height: "820px",
+    height: "100%",
     width: "100%",
     marginTop: "80px",
   },
   frame3: {
     backgroundColor: "rgb(254 242 242)",
-    height: "540px",
+    // height: "540px",
     marginTop: "110px",
     marginLeft: "80px",
     marginRight: "40px",
     textAlign: "left",
+    [theme.breakpoints.down("md")]: {
+      marginBottom: "100px",
+    },
   },
 
   imagePaper3: {
     backgroundColor: "rgb(254 242 242)",
     height: "650px",
     width: "600px",
+    [theme.breakpoints.down("md")]: {
+      margin: "auto",
+      marginTop: "-80px",
+      marginBottom: "70px",
+    },
   },
 }));
 
 function carouselFrame() {
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up("sm"));
   const classes = useStyles();
   const [counter, setCounter] = useState(0);
 
@@ -44,8 +56,8 @@ function carouselFrame() {
     <div>
       <div>
         <Grid className={classes.grid} container spacing={0}>
-          <Grid item xs={6} lg={6}>
-            <Paper className={classes.frame3} elevation={0}>
+          <Grid item xs={12} lg={6}>
+            <Card className={classes.frame3} elevation={0}>
               <h3 className="title1">20% off in your First order</h3>
               <h2 className="title3">
                 Gobi Manchurian Ribs Lamb And Mutton Rosemary Herb
@@ -73,16 +85,16 @@ function carouselFrame() {
                 </button>
                 <button className="addButton">Add To Cart</button>
               </div>
-            </Paper>
+            </Card>
           </Grid>
-          <Grid item xs={6} lg={6}>
-            <Paper className={classes.imagePaper3} elevation={0}>
+          <Grid item xs={12} lg={6}>
+            <Card className={classes.imagePaper3} elevation={0}>
               <img
                 className="contentImage3"
                 src="/contentImage3.jpg"
                 alt="imagee"
               />
-            </Paper>
+            </Card>
           </Grid>
         </Grid>
       </div>
