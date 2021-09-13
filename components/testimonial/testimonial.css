@@ -1,5 +1,6 @@
 .title51 {
   color: rgb(201, 37, 37);
+  padding-top: 20px;
 }
 
 .title52 {
@@ -12,10 +13,10 @@
   padding-left: 20px;
 }
 
-.reviewContainer {
+.reviewDiv {
   padding-left: 200px;
   position: relative;
-  top: -150px;
+  top: 30px;
 }
 
 .reviewContents {

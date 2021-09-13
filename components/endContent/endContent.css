@@ -1,3 +1,8 @@
+.frame4Div {
+  max-width: 300px;
+  margin-left: 40px;
+}
+
 .title41 {
   color: rgb(201, 37, 37);
 }
@@ -16,21 +21,23 @@
 }
 
 .contentImage4 {
-  height: 600px;
-  width: 600px;
-  margin-top: -100px;
+  height: 130%;
+  width: 95%;
+  margin-top: -150px;
 }
 
 .appStore {
   height: 160px;
   width: 140px;
   margin-top: -40px;
+  margin-left: 40px;
+  float: left;
   cursor: pointer;
 }
 
 .playStore {
+  display: flex;
   height: 80px;
   width: 162px;
-  float: right;
   cursor: pointer;
 }

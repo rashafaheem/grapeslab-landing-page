@@ -94,7 +94,9 @@ export default function Home() {
         <button className="explore2Button">Explore All Resturants</button>
         <Carousel />
         <EndContent />
+        {/* <Grid container> */}
         <Testimonial />
+        {/* </Grid> */}
         <Footer />
       </div>
       {/* </Grid> */}

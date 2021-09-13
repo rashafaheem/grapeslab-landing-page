@@ -17,11 +17,10 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   contentImage: {
-    height: "800px",
+    height: "100%",
     width: "100%",
-    marginRight: "20px",
     [theme.breakpoints.down("md")]: {
-      marginRight: "2p",
+      marginLeft: "30px",
     },
   },
 }));

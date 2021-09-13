@@ -1,7 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
+import Card from "@material-ui/core/Card";
 import StarBorderIcon from "@material-ui/icons/StarBorder";
 import StarIcon from "@material-ui/icons/Star";
 
@@ -16,9 +15,10 @@ const useStyles = makeStyles((theme) => ({
 
 function ReviewCard(props) {
   const classes = useStyles();
+
   return (
-    <div className="setofCardsDiv">
-      <Paper className={classes.reviewPaper} elevation={3}>
+    <div>
+      <Card className={classes.reviewPaper} elevation={3}>
         <div className="reviewContents">
           <p className="review">{props.review}</p>
           <img className="clientDP" src={props.clientDP}></img>
@@ -34,7 +34,7 @@ function ReviewCard(props) {
             <p className="clientPlace">{props.clientPlace}</p>
           </div>
         </div>
-      </Paper>
+      </Card>
     </div>
   );
 }
