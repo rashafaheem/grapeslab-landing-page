@@ -7,27 +7,25 @@ import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { useTheme } from "@material-ui/styles";
 
 const useStyles = makeStyles((theme) => ({
-  subPaper: {
-    backgroundColor: "rgb(254 242 242)",
-    height: "400px",
-    width: "90%",
-    // float: "right",
-    marginTop: "90px",
-    marginLeft: "160px",
-    // marginRigt: "70px",
-    [theme.breakpoints.down("md")]: {
-      // marginLeft: "-100px",
-    },
-  },
   testimonialCard: {
     backgroundColor: "rgb(254 242 242)",
+    width: "100%",
+    height: "100%",
+    marginTop: "90px",
+    marginLeft: "140px",
+    marginBottom: "50px",
+    [theme.breakpoints.down("md")]: {
+      marginLeft: "50px",
+    },
   },
 
   reviewDiv: {
-    display: "flex",
-    // [theme.breakpoints.down("md")]: {
-    //   marginLeft: "30px",
-    // },
+    paddingLeft: "200px",
+    marginTop: "-80px",
+    gap: "40px",
+    [theme.breakpoints.down("md")]: {
+      marginLeft: "-220px",
+    },
   },
 }));
 
@@ -37,41 +35,39 @@ function Testimonial() {
   const matches = useMediaQuery(theme.breakpoints.up("sm"));
   return (
     <div>
-      <Grid container className={classes.subPaper}>
+      <Grid container>
         <Grid item xs={12} lg={12}>
           <Card className={classes.testimonialCard} elevation={0}>
             <div className="testDiv">
               <h3 className="title51">Testimonial</h3>
-              <Grid item xs={12}>
-                <h2 className="title52">
-                  What Our Happy Client <br />
-                  Says
-                </h2>
-              </Grid>
+              <h2 className="title52">
+                What Our Happy Client <br />
+                Says
+              </h2>
             </div>
           </Card>
         </Grid>
-        <Grid container className={classes.reviewContainer}>
-          <div className={classes.reviewDiv}>
-            <Grid item xs={12} lg={6} className="reviewDiv">
-              <ReviewCard
-                review="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-                clientDP="./dp1.jpg"
-                clientName="Micheal Joy Das"
-                clientPlace="San Jose, South Dakota 83475"
-              />
-            </Grid>
-            <Grid item xs={12} lg={6}>
-              <ReviewCard
-                review="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-                clientDP="./dp2.jpg"
-                clientName="Jerome Bell"
-                clientPlace="Gray St. Utica, Pennsylvania 57867"
-              />
-            </Grid>
-          </div>
-        </Grid>
       </Grid>
+      <div className={classes.reviewDiv}>
+        <Grid container spacing={3}>
+          <Grid item xs={12} lg={6}>
+            <ReviewCard
+              review="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+              clientDP="./dp1.jpg"
+              clientName="Micheal Joy Das"
+              clientPlace="San Jose, South Dakota 83475"
+            />
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <ReviewCard
+              review="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+              clientDP="./dp2.jpg"
+              clientName="Jerome Bell"
+              clientPlace="Gray St. Utica, Pennsylvania 57867"
+            />
+          </Grid>
+        </Grid>
+      </div>
     </div>
   );
 }

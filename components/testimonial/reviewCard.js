@@ -3,6 +3,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import StarBorderIcon from "@material-ui/icons/StarBorder";
 import StarIcon from "@material-ui/icons/Star";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
+import { useTheme } from "@material-ui/styles";
 
 const useStyles = makeStyles((theme) => ({
   reviewPaper: {
@@ -10,12 +12,18 @@ const useStyles = makeStyles((theme) => ({
     width: "420px",
     marginLeft: "30px",
     borderRadius: "6%",
+    margin: "auto",
+    [theme.breakpoints.down("sm")]: {
+      width: "340px",
+      height: "300px",
+    },
   },
 }));
 
 function ReviewCard(props) {
   const classes = useStyles();
-
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up("sm"));
   return (
     <div>
       <Card className={classes.reviewPaper} elevation={3}>
