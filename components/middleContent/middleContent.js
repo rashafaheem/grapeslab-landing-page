@@ -1,6 +1,5 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
 import { Card } from "@material-ui/core";
 
 function MiddleContent() {
@@ -14,7 +13,7 @@ function MiddleContent() {
             alt="imagee"
           />
         </Grid>
-        <Grid item xs={12} md={6} className="frame2Div">
+        <Grid item xs={12} md={6}>
           <Card className="frame2" elevation={0}>
             <h3 className="title1">Our popular resturants</h3>
             <h1 className="title2">1000+</h1>

@@ -1,6 +1,6 @@
 .frame4Div {
   max-width: 300px;
-  margin-left: 40px;
+  margin: auto;
 }
 
 .title41 {
@@ -30,7 +30,6 @@
   height: 160px;
   width: 140px;
   margin-top: -40px;
-  margin-left: 40px;
   float: left;
   cursor: pointer;
 }
