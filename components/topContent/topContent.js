@@ -1,10 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
 import SearchIcon from "@material-ui/icons/Search";
-import useMediaQuery from "@material-ui/core/useMediaQuery";
-import { useTheme } from "@material-ui/styles";
 import { Card } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
@@ -13,25 +10,16 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "20px",
     marginTop: "90px",
     margin: "auto",
-    // [theme.breakpoints.down("sm")]: {
-    //   marginLeft: "30px",
-    //   marginRight: "30px",
-    // },
   },
   contentImage: {
-    height: "auto",
+    height: "100%",
     width: "100%",
     margin: "auto",
-    // [theme.breakpoints.down("sm")]: {
-    //   marginLeft: "30px",
-    // },
   },
 }));
 
 function topContent() {
   const classes = useStyles();
-  // const theme = useTheme();
-  // const matches = useMediaQuery(theme.breakpoints.up("sm"));
   return (
     <div className="topContentDiv">
       <Grid container spacing={3}>

@@ -17,21 +17,27 @@ export default function Home() {
         <TopContent />
         <div className="miniCard">
           <Grid container spacing={3}>
-            <MarketingCards
-              miniImage="./deliveryImage.jpg"
-              miniTitle="Fastest Delivery"
-              miniContent="We deliver your food to where you are you can be sure that it was in a fast, affordable, and reliable way."
-            />
-            <MarketingCards
-              miniImage="./foodImage.jpg"
-              miniTitle="Best Taste"
-              miniContent="We deliver your food to where you are you can be sure that it was in a fast, affordable, and reliable way."
-            />
-            <MarketingCards
-              miniImage="./offerImage.jpg"
-              miniTitle="Best Offers In Town!"
-              miniContent="We deliver your food to where you are you can be sure that it was in a fast, affordable, and reliable way."
-            />
+            <Grid item xs={12} sm={6} md={4}>
+              <MarketingCards
+                miniImage="./deliveryImage.jpg"
+                miniTitle="Fastest Delivery"
+                miniContent="We deliver your food to where you are you can be sure that it was in a fast, affordable, and reliable way."
+              />
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <MarketingCards
+                miniImage="./foodImage.jpg"
+                miniTitle="Best Taste"
+                miniContent="We deliver your food to where you are you can be sure that it was in a fast, affordable, and reliable way."
+              />
+            </Grid>
+            <Grid item xs={12} sm={12} md={4}>
+              <MarketingCards
+                miniImage="./offerImage.jpg"
+                miniTitle="Best Offers In Town!"
+                miniContent="We deliver your food to where you are you can be sure that it was in a fast, affordable, and reliable way."
+              />
+            </Grid>
           </Grid>
         </div>
         <MiddleContent />
