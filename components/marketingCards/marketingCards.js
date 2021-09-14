@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: "10px",
     width: "100%",
     [theme.breakpoints.down("md")]: {
-      height: 220,
+      minHeight: "220px",
     },
   },
 }));

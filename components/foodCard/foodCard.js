@@ -9,15 +9,9 @@ import { useTheme } from "@material-ui/styles";
 const useStyles = makeStyles((theme) => ({
   foodPaper: {
     borderRadius: "13px",
-    marginRight: "30px",
-    marginBottom: "20px",
-    height: "350px",
+    height: "360px",
     width: "370px",
-    [theme.breakpoints.down("sm")]: {
-      maxWidth: 300,
-      marginLeft: "-40px",
-      marginRight: "60px",
-    },
+    margin: "auto",
   },
   ratingPaper: {
     height: "30px",
@@ -26,22 +20,17 @@ const useStyles = makeStyles((theme) => ({
   },
   foodImage: {
     height: "200px",
-    width: "347px",
+    width: "100%",
     marginTop: "10px",
     borderRadius: "10px",
-    [theme.breakpoints.down("sm")]: {
-      maxWidth: 280,
-    },
   },
 }));
 
 function FoodCard(props) {
   const classes = useStyles();
-  const theme = useTheme();
-  const matches = useMediaQuery(theme.breakpoints.up("sm"));
   return (
     <div className="foodCardDiv">
-      <Grid item xs={12} lg={4} className={classes.cardGrid}>
+      <Grid container>
         <Card className={classes.foodPaper} elevation={3}>
           <div className="foodCards">
             {props.tag ? (
@@ -52,7 +41,7 @@ function FoodCard(props) {
               <></>
             )}
             <p className="discount">{props.discount}</p>
-            <Grid item xs={12} lg={4}>
+            <Grid item xs={12} lg={12}>
               <img className={classes.foodImage} src={props.foodImage}></img>
             </Grid>
             <Grid item xs={12} lg={12}>
